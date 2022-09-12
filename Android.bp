@@ -1,0 +1,13 @@
+package {
+    // See: http://go/android-license-faq
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
+android_app_import {
+    name: "CarMessengerApp",
+    apk: "CarMessengerApp.apk",
+    privileged: true,
+    certificate: "platform",
+    required: ["allowed_privapp_com.android.car.messenger"],
+    overrides: ["messaging"],
+}
