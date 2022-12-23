@@ -10,7 +10,7 @@ then
 fi
 
 function downloadApp {
-    TARGET=car_apps-user
+    TARGET=car_apps_gradle-all
     # See go/fetch_artifact for details on fetch_artifact. To install it use:
     # sudo glinux-add-repo android stable && \
     # sudo apt update && \
